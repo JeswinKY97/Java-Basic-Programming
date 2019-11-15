@@ -10,7 +10,6 @@ public class secondlargest {
 		System.out.println("Enter the size of array");
 		int size=s.nextInt();
 		int[] A=new int[size];
-		
 		int i=0;
 		for(i=0;i<size;i++)
 		{
@@ -18,7 +17,9 @@ public class secondlargest {
 		A[i]=s.nextInt();	
 		}
 		Arrays.sort(A);
-		System.out.println("Second largest value is" +A[size-2]);
+		System.out.println("Second largest value is " +A[size-2]);
+        s.close();
+
 	}
 
 }

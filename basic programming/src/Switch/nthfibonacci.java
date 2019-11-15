@@ -1,8 +1,7 @@
 package Switch;
-
 import java.util.Scanner;
 
-public class Fibbonocc {
+public class nthfibonacci {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,15 +10,15 @@ public class Fibbonocc {
 		int n=s.nextInt();
 		int a=0;
 		int b=1;
-		System.out.printf("%d %d",a,b);
+		int c=0;
 		for(int i=2;i<n;i++)
 		{
-			int c=a+b;
-			System.out.printf(" %d ",c);
+			c=a+b;
 			a=b;
 			b=c;
 		}
-		}
+		System.out.print(c);
+
 	}
 
-
+}

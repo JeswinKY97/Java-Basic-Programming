@@ -1,9 +1,10 @@
-package Programming;
-import java.util.Scanner;
+package interviewquestions;
+import java.util.*;
 public class strongno {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter the number");
 		int n=s.nextInt();
@@ -27,7 +28,6 @@ public class strongno {
 			System.out.print("Yes");
 		else
 			System.out.print("Not");
-
 	}
 
 }

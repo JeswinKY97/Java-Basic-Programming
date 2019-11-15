@@ -13,17 +13,18 @@ public class Fibanoccicheck {
 		int b=1;
 		int m=0;
 		int c=0;
-		for(int i=1;i<n;i++)
+		for(int i=1;i<n*2;i++)
 		{
 			 c=a+b;
 			if(c==n)
 			{
 				m++;
 			}
-		}
+		
 			
 			a=b;
 			b=c;
+		}
 			if(m!=0)
 			
 				System.out.println("yes");

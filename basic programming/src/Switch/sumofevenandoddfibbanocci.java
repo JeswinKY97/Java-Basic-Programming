@@ -1,8 +1,7 @@
 package Switch;
-
 import java.util.Scanner;
 
-public class Fibbonocc {
+public class sumofevenandoddfibbanocci {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,15 +10,26 @@ public class Fibbonocc {
 		int n=s.nextInt();
 		int a=0;
 		int b=1;
-		System.out.printf("%d %d",a,b);
+		int d=0;
+		int	e=0;
+		
 		for(int i=2;i<n;i++)
 		{
+			 
 			int c=a+b;
-			System.out.printf(" %d ",c);
+			if(c%2==1)
+			{
+				d=d+c;	
+			}
+			else
+			{
+				e=e+c;
+			}
 			a=b;
 			b=c;
 		}
-		}
+		System.out.println(d);
+		System.out.println(e);
 	}
 
-
+}

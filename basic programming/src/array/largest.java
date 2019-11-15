@@ -10,7 +10,7 @@ public class largest {
 		System.out.println("Enter the size of array");
 		int size=s.nextInt();
 		int m=0;
-		int i=0;
+		int i=0; 
 		int [] A=new int[size];
 		for(i=0;i<size;i++)
 		{
