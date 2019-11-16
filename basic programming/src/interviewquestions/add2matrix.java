@@ -2,7 +2,7 @@ package interviewquestions;
 
 import java.util.Scanner;
 
-public class progtoadd2matrix {
+public class add2matrix {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,7 +18,7 @@ public class progtoadd2matrix {
 		}
 		System.out.println("Enter the size of 2nd array");
 		int b=s.nextInt();
-		int [] B=new int[a];
+		int [] B=new int[b];
 		for(int i=0;i<b;i++)
 		{
 			System.out.println("Enter the Values");

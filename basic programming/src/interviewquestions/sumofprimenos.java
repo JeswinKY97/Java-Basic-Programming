@@ -8,16 +8,19 @@ public class sumofprimenos {
 
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
-		int i,c=0;
+		int i,j,c=0;
 		for( i=2;i<=n;i++)
 		{
-			if(n%i==1)
+			for(j=1;j<n;j++)
 			{
-				c++;
-				break;
+			if(n%i!=0)
+			{
+				c=c+i;
 				
 			}
-		}
+				
+			}
+		}System.out.print(c);
 		
 	}
 
