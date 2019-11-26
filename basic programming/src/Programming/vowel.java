@@ -17,7 +17,7 @@ public class vowel {
 		System.out.println("Enter the Values");
 		A[i]=s.next();
 	}
-	for(i=0;i<a;i++)
+	for(i=0;i<=a;i++)
 	{
 		c=A[i].charAt(0);
 		

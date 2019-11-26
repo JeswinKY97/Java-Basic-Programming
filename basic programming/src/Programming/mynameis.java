@@ -3,18 +3,29 @@ import java.util.*;
 public class mynameis {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		int c=0;
+		// TODO Auto-generated method stub		
 		
 		Scanner s=new Scanner(System.in);
 		String a=s.nextLine();
-		for(int i=0;i<a.length()-1;i++)
-		{
-		if(a.charAt(i)==' ' )
-		c++;
+		String x[]=a.split(" ");// to split words
+		int j;
 		
-		}System.out.print(c+1);
+		for(int i=0;i<x.length;i++)// to track words
+		{
+		if(i%2!=0 )// condition to check odd number
+		{
+			int c=x[i].length();
+		for(j=c-1;j>=0;j--)// to track letters of words
+		{
+
+		System.out.print(x[i].charAt(j));// reversing letters of words
+				
+		}
+		System.out.print(" ");
+		}
+		else
+			System.out.print(x[i]+" ");
+		}
 	}
 
 }

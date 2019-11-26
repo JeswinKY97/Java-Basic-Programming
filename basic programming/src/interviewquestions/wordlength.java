@@ -16,7 +16,6 @@ public class wordlength {
 		{
 		if(text.charAt(i)==' ' )
 		count++;
-
 		}
 		System.out.println("Total number of words in string are: "+(count+1));
 	}
